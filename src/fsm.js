@@ -88,6 +88,7 @@ class FSM {
       this.state = [this.configTemp.initial];
       this.history.length = 0;
     }
+    
 }
 module.exports = FSM;
 
